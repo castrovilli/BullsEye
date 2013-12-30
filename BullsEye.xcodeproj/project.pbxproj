@@ -21,6 +21,8 @@
 		0EEF6E06186EFD37003133B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEF6DE8186EFD37003133B5 /* UIKit.framework */; };
 		0EEF6E0E186EFD37003133B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EEF6E0C186EFD37003133B5 /* InfoPlist.strings */; };
 		0EEF6E10186EFD37003133B5 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF6E0F186EFD37003133B5 /* BullsEyeTests.m */; };
+		0EEF6E1B18712FA0003133B5 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF6E1A18712FA0003133B5 /* InfoViewController.m */; };
+		0EEF6E1D1871330D003133B5 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 0EEF6E1C1871330D003133B5 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		0EEF6E0B186EFD37003133B5 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		0EEF6E0D186EFD37003133B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EEF6E0F186EFD37003133B5 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		0EEF6E1918712FA0003133B5 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		0EEF6E1A18712FA0003133B5 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		0EEF6E1C1871330D003133B5 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				0EEF6DF6186EFD37003133B5 /* Main.storyboard */,
 				0EEF6DF9186EFD37003133B5 /* ViewController.h */,
 				0EEF6DFA186EFD37003133B5 /* ViewController.m */,
+				0EEF6E1C1871330D003133B5 /* BullsEye.html */,
+				0EEF6E1918712FA0003133B5 /* InfoViewController.h */,
+				0EEF6E1A18712FA0003133B5 /* InfoViewController.m */,
 				0EEF6DFC186EFD37003133B5 /* Images.xcassets */,
 				0EEF6DEB186EFD37003133B5 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEF6DFD186EFD37003133B5 /* Images.xcassets in Resources */,
+				0EEF6E1D1871330D003133B5 /* BullsEye.html in Resources */,
 				0EEF6DEF186EFD37003133B5 /* InfoPlist.strings in Resources */,
 				0EEF6DF8186EFD37003133B5 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +260,7 @@
 			files = (
 				0EEF6DFB186EFD37003133B5 /* ViewController.m in Sources */,
 				0EEF6DF5186EFD37003133B5 /* AppDelegate.m in Sources */,
+				0EEF6E1B18712FA0003133B5 /* InfoViewController.m in Sources */,
 				0EEF6DF1186EFD37003133B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
